@@ -1,0 +1,343 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{% static 'css/global.css'%}" />
+    <link rel="stylesheet" href="{% static 'css/ProviderViewRequests.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Baloo Bhai:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="provider-view-requests">
+      <img class="bg-icon13" alt="" src="{% static 'css/public/bg5.svg' %}" />
+      <div class="all-tickets5">
+        <img class="cards-default35" alt="" src="{% static 'css/public/cards--default.svg' %}" />
+        <div class="table-ticket-priority-high13">
+          <div class="content74">
+            <img
+              class="icon-more-vertical27"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+            /><button class="badge122">
+              <label class="badge123"><b class="text857">Rejected</b></label>
+            </button>
+            <div class="date-customer27">External</div>
+            <div class="customer-name33">Company X</div>
+            <div class="ticket-information27">May 26, 2022</div>
+            <div class="ticket-name27">Request Example 1</div>
+          </div>
+          <img
+            class="divider-line-horizontal78"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><img
+            class="divider-line-horizontal79"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          />
+        </div>
+        <div class="table-ticket-priority-low8">
+          <div class="content75">
+            <img
+              class="icon-more-vertical28"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+            /><button class="badge124">
+              <button class="badge125"><b class="text857">On Hold</b></button>
+            </button>
+            <div class="date-label27">#RQ00002</div>
+            <div class="date-label28">#RQ00001</div>
+            <div class="date-customer28">Internal</div>
+            <div class="customer-name34">Department X</div>
+            <div class="ticket-information28">May 26, 2022</div>
+            <div class="ticket-name28">Request Example 2</div>
+          </div>
+          <img
+            class="divider-line-horizontal78"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><img
+            class="divider-line-horizontal79"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          />
+        </div>
+        <div class="table-ticket-priority-low9">
+          <div class="content74">
+            <img
+              class="icon-more-vertical27"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+            />
+            <div class="date-label29">#RQ00011</div>
+            <div class="date-customer29">External</div>
+            <div class="customer-name35">Company I</div>
+            <div class="ticket-information29">May 26, 2022</div>
+            <div class="ticket-name29">Request Example 7</div>
+          </div>
+          <img
+            class="divider-line-horizontal78"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><img
+            class="divider-line-horizontal79"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><label class="badge126"
+            ><button class="badge125">
+              <b class="text857">On Hold</b>
+            </button></label
+          >
+        </div>
+        <div class="table-ticket-priority-high14">
+          <div class="content74">
+            <img
+              class="icon-more-vertical27"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+            />
+            <div class="date-label29">#RQ00007</div>
+            <div class="date-customer29">Internal</div>
+            <div class="customer-name35">Department Y</div>
+            <div class="ticket-information29">May 26, 2022</div>
+            <div class="ticket-name29">Request Example 3</div>
+          </div>
+          <img
+            class="divider-line-horizontal78"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><img
+            class="divider-line-horizontal79"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><label class="badge128"
+            ><label class="badge123"
+              ><b class="text860">Rejected</b></label
+            ></label
+          >
+        </div>
+        <div class="filter12">
+          <div class="filter13">Filter</div>
+          <img class="icon-filter6" alt="" src="{% static 'css/public/icon--filter.svg' %}" />
+        </div>
+        <div class="sort12">
+          <div class="filter13">Sort</div>
+          <img class="icon-sort6" alt="" src="{% static 'css/public/icon--sort.svg' %}" />
+        </div>
+        <div class="table-bottom3">
+          <div class="rows-per-page6">
+            <div class="rows-per-page7">Rows per page:</div>
+            <div class="div9">8</div>
+            <img
+              class="icon-dropdown3"
+              alt=""
+              src="{% static 'css/public/icon--dropdown3.svg' %}"
+            />
+          </div>
+          <div class="pagination3">
+            <div class="of-12403">1-8 of 1240</div>
+            <img
+              class="icon-arrow-left3"
+              alt=""
+              src="{% static 'css/public/icon--arrow--left.svg' %}"
+            /><img
+              class="icon-arrow-right3"
+              alt=""
+              src="{% static 'css/public/icon--arrow--right.svg' %}"
+            />
+          </div>
+        </div>
+        <b class="all-requests3">All Requests</b>
+        <div class="table-ticket-priority-norm6">
+          <div class="content74">
+            <img
+              class="icon-more-vertical31"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+              id="iconMoreVertical4"
+            />
+            <div class="badge130"><b class="text860">Active</b></div>
+            <div class="date-label29">#RQ00010</div>
+            <div class="date-customer29">Internal</div>
+            <div class="customer-name35">Department Z</div>
+            <div class="ticket-information29">May 26, 2022</div>
+            <div class="ticket-name29">Request Example 4</div>
+          </div>
+          <img
+            class="divider-line-horizontal78"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><img
+            class="divider-line-horizontal79"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          />
+        </div>
+        <div class="table-ticket-priority-norm7">
+          <div class="content74">
+            <img
+              class="icon-more-vertical27"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+            />
+            <div class="date-label29">#RQ00003</div>
+            <div class="date-customer29">External</div>
+            <div class="customer-name35">Company Z</div>
+            <div class="ticket-information29">May 26, 2022</div>
+            <div class="ticket-name29">Request Example 6</div>
+          </div>
+          <img
+            class="divider-line-horizontal78"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          /><img
+            class="divider-line-horizontal79"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal10.svg' %}"
+          />
+          <div class="badge131"><b class="text860">Active</b></div>
+        </div>
+        <div class="table-ticket-priority-high15">
+          <div class="sheet48"></div>
+          <div class="content74">
+            <img
+              class="icon-more-vertical27"
+              alt=""
+              src="{% static 'css/public/icon--more--vertical.svg' %}"
+            />
+            <div class="date-label29">#RQ00009</div>
+            <div class="date-customer29">External</div>
+            <div class="customer-name35">Company Y</div>
+            <div class="ticket-information29">May 26, 2022</div>
+            <div class="ticket-name29">Request Example 5</div>
+          </div>
+          <img class="divider-line-horizontal90" alt="" /><img
+            class="divider-line-horizontal91"
+            alt=""
+          />
+          <div class="badge132">
+            <div class="badge133"><b class="text860">Rejected</b></div>
+          </div>
+        </div>
+        <div class="table-top5">
+          <b class="request-title3">Request Title</b><b class="owner3">Owner</b
+          ><b class="status3">Status</b
+          ><b class="request-number3">Request Number</b
+          ><img
+            class="divider-line-horizontal92"
+            alt=""
+            src="{% static 'css/public/divider--line--horizontal24.svg' %}"
+          />
+        </div>
+      </div>
+      <div class="header-default13">
+        <div class="avatar13">
+          <div class="wrapper102">
+            <div class="icon-wrapper646">
+              <div class="width-change-size-here407">
+                <div class="ignore2004"></div>
+                <div class="ignore2004"></div>
+              </div>
+              <div class="icon-wrapper-h407">
+                <div class="height-change-size-here405">
+                  <div class="ignore2004"></div>
+                  <div class="ignore2004"></div>
+                </div>
+                <img
+                  class="icon-wrapper647"
+                  alt=""
+                  src="{% static 'css/public/iconwrapper282.svg' %}"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="name13">Naser Hamed</div>
+        <img
+          class="divider-line-vertical13"
+          alt=""
+          src="{% static 'css/public/divider--line--vertical.svg' %}"
+        /><img
+          class="icon-notifications-new13"
+          alt=""
+          src="{% static 'css/public/icon--notifications--new13.svg' %}"
+        />
+      </div>
+      <div class="sidebar-desktop13">
+        <div class="sidebar-list-inactive30" id="sidebarListInactive">
+          <div class="title149">Overview</div>
+          <img
+            class="icon-sidebar-inactive-17"
+            alt=""
+            src="{% static 'css/public/icon--sidebar--inactive--1-overview.svg' %}"
+          />
+        </div>
+        <div class="sidebar-list-active20">
+          <img class="sheet-icon17" alt="" src="{% static 'css/public/sheet.svg' %}" />
+          <div class="selected20"></div>
+          <div class="title149">Requests</div>
+          <img
+            class="icon-sidebar-active-2-t17"
+            alt=""
+            src="{% static 'css/public/icon--sidebar--active--2-tickets.svg' %}"
+          />
+        </div>
+        <div class="sidebar-list-inactive31" id="sidebarListInactive1">
+          <div class="title149">Contacts</div>
+          <img
+            class="icon-sidebar-active-2-t17"
+            alt=""
+            src="{% static 'css/public/icon--sidebar--inactive--4-contacts.svg' %}"
+          />
+        </div>
+        <div class="title152">Log out</div>
+        <div class="sidebar-list-inactive32"></div>
+        <img
+          class="icon-sidebar-inactive-a-13"
+          alt=""
+          src="{% static 'css/public/icon--sidebar--inactive--a-1-settings13.svg' %}"
+        /><img
+          class="divider-line-horizontal93"
+          alt=""
+          src="{% static 'css/public/divider--line--horizontal.svg' %}"
+        /><img class="image-1-icon16" alt="" src="{% static 'css/public/image-1@2x.png' %}" />
+      </div>
+    </div>
+
+    <script>
+      var iconMoreVertical4 = document.getElementById("iconMoreVertical4");
+      if (iconMoreVertical4) {
+        iconMoreVertical4.addEventListener("click", function (e) {
+          window.location.href = "./ProviderViewRequestsOptions.html";
+        });
+      }
+      
+      var sidebarListInactive = document.getElementById("sidebarListInactive");
+      if (sidebarListInactive) {
+        sidebarListInactive.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var sidebarListInactive1 = document.getElementById("sidebarListInactive1");
+      if (sidebarListInactive1) {
+        sidebarListInactive1.addEventListener("click", function (e) {
+          window.location.href = "./Delegation.html";
+        });
+      }
+      </script>
+  </body>
+</html>
